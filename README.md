@@ -74,7 +74,7 @@ Planned features are:
 ![Live shortcode](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-4.png?raw=true)  
 *That shortcode in use*
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
+### 1.0.0
 * Initial release
