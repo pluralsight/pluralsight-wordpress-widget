@@ -13,7 +13,7 @@
  * Version:           1.0.0
  * Author:            Chris Reynolds
  * Author URI:        http://chrisreynolds.io
- * Text Domain:       pluralsight-author-widget
+ * Text Domain:       pluralsight-wordpress-widget
  * License:           GPL3
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
  * Domain Path:       /languages
@@ -25,7 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-require_once( plugin_dir_path( __FILE__ ) . 'public/class-pluralsight-author-widget.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'public/class-pluralsight-wordpress-widget.php' );
 require_once( plugin_dir_path( __FILE__ ) . 'public/views/public.php' );
 require_once( plugin_dir_path( __FILE__ ) . 'includes/widget.php' );
 add_action( 'plugins_loaded', array( 'Pluralsight_Author_Widget', 'get_instance' ) );

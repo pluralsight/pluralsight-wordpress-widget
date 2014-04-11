@@ -25,7 +25,7 @@ class Pluralsight_Author_Widget {
 	const VERSION = '1.0.0';
 
 	/**
-	 * @TODO - Rename "pluralsight-author-widget" to the name your your plugin
+	 * @TODO - Rename "pluralsight-wordpress-widget" to the name your your plugin
 	 *
 	 * Unique identifier for your plugin.
 	 *
@@ -38,7 +38,7 @@ class Pluralsight_Author_Widget {
 	 *
 	 * @var      string
 	 */
-	protected $plugin_slug = 'pluralsight-author-widget';
+	protected $plugin_slug = 'pluralsight-wordpress-widget';
 
 	/**
 	 * Instance of this class.
@@ -234,7 +234,8 @@ class Pluralsight_Author_Widget {
 				'tags' => '',
 				'limit' => 0,
 				'logo' => 'above',
-				'style' => 'light'
+				'style' => 'light',
+				'fields' => ''
 			), $atts ) );
 
 		$author = '';
@@ -242,6 +243,7 @@ class Pluralsight_Author_Widget {
 		$limit = 0;
 		$logo_position = 'above';
 		$style = 'light';
+		$fields = '';
 
 		if ( !empty( $atts['author'] ) )
 			$author = $atts['author'];
@@ -253,14 +255,16 @@ class Pluralsight_Author_Widget {
 			$logo_position = $atts['logo'];
 		if ( !empty( $atts['style'] ) )
 			$style = $atts['style'];
+		if ( !empty( $atts['fields'] ) )
+			$fields = $atts['fields'];
 
 		ob_start();
 		if ( !empty( $atts ) ) {
-			ps_basic_widget( $author, $tags, $limit, $logo_position, $style );
+			ps_basic_widget( $author, $tags, $fields, $limit, $logo_position, $style );
 		} else {
 			?>
 			<p>
-				<?php _e( 'No author or tags defined.', 'pluralsight-author-widget' ); ?>
+				<?php _e( 'No author or tags defined.', 'pluralsight-wordpress-widget' ); ?>
 			</p>
 			<?php
 		}
