@@ -62,14 +62,13 @@ Planned features are:
 3. Either drag the Pluralsight Widget to a widgetized area on your Widgets page or use the shortcode.
 
 ## Screenshots
-
-![https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-1.png?raw=true](Pluralsight Widget)
+![Pluralsight Widget](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-1.png?raw=true)  
 1. The Pluralsight Widget on the Widgets page
-![https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-2.png?raw=true](Live widget)
+![Live widget](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-2.png?raw=true)  
 2. The widget in action!
-![https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-3.png?raw=true](Example shortcode)
-3. An example shortcode usage
-![https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-4.png?raw=true](Live shortcode)
+![Example shortcode](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-3.png?raw=true)  
+3. An example shortcode usage  
+![Live shortcode](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-4.png?raw=true)  
 4. That shortcode in use
 
 == Changelog ==
