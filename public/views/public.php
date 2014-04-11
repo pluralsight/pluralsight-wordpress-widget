@@ -13,18 +13,30 @@
  */
 
 
-function ps_basic_widget( $author = '', $tags = '', $limit = null, $logo_position = 'above', $style = 'light' ) {
+function ps_basic_widget( $author = '', $tags = '', $fields = '', $limit = null, $logo_position = 'above', $style = 'light' ) {
+
+	if ( !is_null( $limit ) )
+		$limit = 'limit=' . $limit;
+
+	if ( isset( $logo_position ) )
+		$logo_position = 'logoPosition=' . $logo_position;
+
+	$fields = 'fields=' . $fields;
+
 
 	if ( isset( $author ) || isset( $tags ) ) {
 		?>
 		<script type="text/javascript" id="pluralsight-course-list-widget">
 		(function() {
-		  var authorId = '<?php echo $author; ?>';
+		  var authorId = '<?php echo esc_attr( $author ); ?>';
+		  var limit = '<?php echo esc_attr( $limit ); ?>';
+		  var logoPosition = '<?php echo esc_attr( $logo_position ); ?>';
+		  var fields = '<?php echo esc_attr( $fields ); ?>';
 		  function asyncLoadWidget() {
 		    var s = document.createElement('script');
 		    s.type = 'text/javascript';
 		    s.async = true;
-		    var theUrl = 'http://widgets.pluralsight.com/authors/' + authorId + '/courses.js';
+		    var theUrl = 'http://widgets.pluralsight.com/authors/' + authorId + '/courses.js?' + fields + '&' + limit + '&' + logoPosition;
 		    s.src = theUrl +
 		            ( theUrl.indexOf("?") >= 0 ? "&" : "?") +
 		            'ref=' + encodeURIComponent(window.location.href);
@@ -42,9 +54,8 @@ function ps_basic_widget( $author = '', $tags = '', $limit = null, $logo_positio
 	} else {
 		?>
 		<p>
-		<?php _e( 'No author or tags defined.', 'pluralsight-author-widget' ); ?>
+		<?php _e( 'No author or tags defined.', 'pluralsight-wordpress-widget' ); ?>
 		</p>
 		<?php
 	}
 }
-
