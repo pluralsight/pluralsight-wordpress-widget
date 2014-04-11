@@ -63,9 +63,9 @@ Planned features are:
 
 ## Screenshots
 ![Pluralsight Widget](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-1.png?raw=true)  
-1. The Pluralsight Widget on the Widgets page
+1. The Pluralsight Widget on the Widgets page  
 ![Live widget](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-2.png?raw=true)  
-2. The widget in action!
+2. The widget in action!  
 ![Example shortcode](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-3.png?raw=true)  
 3. An example shortcode usage  
 ![Live shortcode](https://github.com/pluralsight/pluralsight-wordpress-widget/blob/master/assets/screenshot-4.png?raw=true)  
