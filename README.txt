@@ -1,14 +1,13 @@
 === Pluralsight Author Widget ===
-Contributors: jazzs3quence
-Donate link:
-Tags:
+Contributors: pluralsight, jazzs3quence
+Tags: widget, shortcode, pluralsight, courses, online training, online learning
 Requires at least: 3.5.1
-Tested up to: 3.6
+Tested up to: 3.8.2
 Stable tag: 1.0.0
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+A simple widget (and shortcode) that displays [Pluralsight](http://pluralsight.com) courses by author.
 
 == Description ==
 
@@ -46,7 +45,7 @@ e.g.
 = Using The WordPress Dashboard =
 
 1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'pluralsight-author-widget'
+2. Search for 'pluralsight-wordpress-widget'
 3. Click 'Install Now'
 4. Activate the plugin on the Plugin dashboard
 
@@ -54,15 +53,15 @@ e.g.
 
 1. Navigate to the 'Add New' in the plugins dashboard
 2. Navigate to the 'Upload' area
-3. Select `pluralsight-author-widget.zip` from your computer
+3. Select `pluralsight-wordpress-widget.zip` from your computer
 4. Click 'Install Now'
 5. Activate the plugin in the Plugin dashboard
 
 = Using FTP =
 
-1. Download `pluralsight-author-widget.zip`
-2. Extract the `pluralsight-author-widget` directory to your computer
-3. Upload the `pluralsight-author-widget` directory to the `/wp-content/plugins/` directory
+1. Download `pluralsight-wordpress-widget.zip`
+2. Extract the `pluralsight-wordpress-widget` directory to your computer
+3. Upload the `pluralsight-wordpress-widget` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
 
 
