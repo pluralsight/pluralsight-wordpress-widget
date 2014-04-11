@@ -130,7 +130,7 @@ class Pluralsight_Widget extends WP_Widget {
 		$instance['title'] = ( !empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
 		$instance['author'] = ( !empty( $new_instance['author'] ) ) ? sanitize_title( $new_instance['author'] ) : '';
 		$instance['fields'] = ( !empty( $new_instance['fields'] ) ) ? strip_tags( $new_instance['fields'] ) : '';
-		$instance['limit'] = ( !empty( $new_instance['limit'] && is_numeric( $new_instance['limit'] ) ) ) ? strip_tags( $new_instance['limit'] ) : '';
+		$instance['limit'] = ( !empty( $new_instance['limit'] ) && is_numeric( $new_instance['limit'] ) ) ? strip_tags( $new_instance['limit'] ) : '';
 		$instance['logo_position'] =  $new_instance['logo_position'];
 
 		return $instance;
