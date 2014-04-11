@@ -8,11 +8,11 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Pluralsight Author Widget
- * Plugin URI:        @TODO
+ * Plugin URI:        https://github.com/pluralsight/pluralsight-wordpress-widget
  * Description:       A widget and a shortcode that allow you to display Pluralsight courses by author ID or tag(s).
  * Version:           1.0.0
- * Author:            Chris Reynolds
- * Author URI:        http://chrisreynolds.io
+ * Author:            Pluralsight
+ * Author URI:        http://pluralsight.com
  * Text Domain:       pluralsight-wordpress-widget
  * License:           GPL3
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
