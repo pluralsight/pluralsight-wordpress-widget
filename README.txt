@@ -7,11 +7,11 @@ Stable tag: 1.0.0
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-A simple widget (and shortcode) that displays [Pluralsight](http://pluralsight.com) courses by author.
+A simple widget (and shortcode) that displays Pluralsight courses by author.
 
 == Description ==
 
-This plugin adds a list of Pluralsight courses by author (by tag coming soon) as either a widget or a shortcode. The widget includes controls to determine what fields to include (first name, last name and date published), where to display the Pluralsight logo (above or below the course list) and how many courses to list.
+This plugin adds a list of [Pluralsight](http://pluralsight.com) courses by author (by tag coming soon) as either a widget or a shortcode. The widget includes controls to determine what fields to include (first name, last name and date published), where to display the Pluralsight logo (above or below the course list) and how many courses to list.
 
 The shortcode allows you to control all the same options with shortcode parameters.
 
