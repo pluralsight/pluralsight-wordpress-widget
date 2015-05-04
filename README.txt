@@ -2,8 +2,8 @@
 Contributors: pluralsight, jazzs3quence
 Tags: widget, shortcode, pluralsight, courses, online training, online learning
 Requires at least: 3.5.1
-Tested up to: 3.8.2
-Stable tag: 1.0.0
+Tested up to: 4.2.1
+Stable tag: 1.0.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -76,6 +76,9 @@ Planned features are:
 4. That shortcode in use
 
 == Changelog ==
+
+= 1.0.1 =
+* version bump, no major changes
 
 = 1.0.0 =
 * Initial release

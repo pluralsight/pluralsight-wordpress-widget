@@ -10,7 +10,7 @@
  * Plugin Name:       Pluralsight Author Widget
  * Plugin URI:        https://github.com/pluralsight/pluralsight-wordpress-widget
  * Description:       A widget and a shortcode that allow you to display Pluralsight courses by author ID or tag(s).
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Pluralsight
  * Author URI:        http://pluralsight.com
  * Text Domain:       pluralsight-wordpress-widget
